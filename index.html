@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <br>
+        <div id="task_1">
+            <h1>Navigacija</h1>
+            <ul>
+                <li><a href="#task_2">CV</a></li>
+                <li><a href="#task_3">Filmovi</a></li>
+                <li><a href="#task_4">Forma</a></li>
+            </ul>
+            </header>
+        </div>
+
+
+        </div id="task_2">
+        <h1>Curriculum Vitae</h1>
+        <img src="fotografija.jpg" alt="CV fotografija" height="400" width="250" id="cv_photo">
+        <br>
+        <h2>Osnovne informacije</h2>
+        <div id="informacije">
+        <p><strong>IME:</strong> Veselin</p>
+        <p><strong>PREZIME:</strong> Jokanović</p>
+        <p><strong>DATUM ROĐENJA:</strong> 22/07/1994</p>
+        </div>
+        <br>
+        <h2>Stručne sposobnosti</h2>
+        <p>Programski jezici koje koristim su:</p>
+        <ol type="A">
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ol>
+        <br>
+        <a href="https://github.com/">GitHub Link</a>
+        <br>
+        <h2>Ostale vještine</h2>
+        <ul>
+            <li>Napredno poznavanje engleskog jezika, uključujući stručnu i naučnu terminologiju</li>
+            <li>Vozačka dozvola B kategorija</li>
+        </ul>   
+        </div>
+
+        <div id="task_3">
+            <table id="filmovi" border="black">
+                <caption><strong>Omiljeni Filmovi</strong></caption>
+
+                <tr>
+                    <th>
+                        <td>Naziv Filma</td>
+                        <td>Kratak Opis</td>
+                        <td>Zanr</td>
+                        <td>Datum Izlaska</td>
+                        <td>Cover Slika</td>
+                        <td>Link</td>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">The Prestige</td>
+                    <td> Dva magičara viktorijanskog doba započinju moćno rivalstvo koje će eskalirati u borbu trikovima<br> i neutaživu žeđ za otkrivanjem tajni zanata onog drugog. </td>
+                    <td>Drama</td>
+                    <td>20.10.2006</td>
+                    <td><img src="filmovi/prestige.jpg" width="250" height="150" alt="Prestige"></td>
+                    <td><a href="https://www.imdb.com/title/tt0482571/">IMDB</a></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Double Indemnity</td>
+                    <td>1938. godine, agent osiguravajuće kuće i supruga jednog klijenta kuju mračni plan kako bi se obogatili.</td>
+                    <td>Film Noir</td>
+                    <td>03.07.1944</td>
+                    <td><img src="filmovi/double_indemnity.jpg" width="250" height="150" alt="Double Indemnity"></td>
+                    <td><a href="https://www.imdb.com/title/tt0036775/?ref_=nv_sr_srsg_2">IMDB</a></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Black Hawk Down</td>
+                    <td>Film opisuje pad američknog Black Hawk helikoptera i akciju spasavanja u Mogadišuu, u Somaliji, <br> 1993. godine.</td>
+                    <td>Ratni, Akcija, Drama</td>
+                    <td>18.01.2002</td>
+                    <td><img src="filmovi/black_hawk_down.jpg" width="250" height="150" alt="Black Hawk Down"></td>
+                    <td><a href="https://www.imdb.com/title/tt0265086/?ref_=nv_sr_srsg_0">IMDB</a></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Inception</td>
+                    <td>Radnja prati tim ljudi koji ulaze drugima u snove i njihov pokušaj da implantuju ideju u snu jednog bogataša.</td>
+                    <td>Sci-fi, Drama</td>
+                    <td>08.07.2010</td>
+                    <td><img src="filmovi/inception.jpg" width="250" height="150" alt="Inception"></td>
+                    <td><a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_0">IMDB</a></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">K-Pax</td>
+                    <td>Ovo je priča o misterioznom pacijentu u ludnici koji tvrdi da je s planete K-PAX. Njegov doktor mu pokušava <br> pomoći, ali sve njegove terapije bivaju bezuspješne. </td>
+                    <td>Drama</td>
+                    <td>22.11.2001</td>
+                    <td><img src="filmovi/k-pax.jpg" width="250" height="150" alt="K-Pax"></td>
+                    <td><a href="https://www.imdb.com/title/tt0272152/?ref_=nv_sr_srsg_0">IMDB</a></td>
+                </tr>
+            </table>
+
+            <br>
+
+        
+        </div id="task_4">
+        <h1>Job Application with resume upload</h1>
+        <h2>Contact Information</h2>
+        <br>
+        <table id="form1" width="400">
+            <tr>
+                <td><label for="ime">Ime:*</label><br><input type="text" id="ime" required></td>
+                <td><label for="prezime">Prezime:*</label><br><input type="text" id="prezime" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="email">Email:*</label><br><input type="email" id="email" required></input></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="br_tel">Broj Telefona:*</label><br><input type="tel" id="br_tel" required</td>
+            </tr>
+        </table>
+        <br>
+        <h3>Pozicija</h3>
+        <br>
+        <table id="form2" width="400" border="black">
+            <tr><td>
+                <label for="pozicija">Izaberite poziciju:* </label><br>
+                <select id="pozicija" required>
+                <option>Backend Python</option>
+                <option>Backend Node JS</option>
+                <option>Frontend Angular</option>
+                <option selected>Frontend React JS</option>
+            </select>
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="file">CV - Odaberite fajl</label><br><input type="file" id="file"></tr>
+                </td>
+
+            <tr>
+                <td>
+                    <label for="sajt">Portfolio Website</label><br>
+                    <input type="url" id="sajt">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="salary">Preferirani iznos plate</label><br><input type="text" id="salary">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="pocetak">Kada možete početi sa radom?</label><br><input type="text" id="pocetak">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <p>Da li ste voljni da se preselite?</p><br>
+                    
+                    <input type="radio" id="da" value="Da">
+                    <label for="da">Da</label>
+                    <br>
+                    
+                    <input type="radio" id="ne" value="Ne">
+                    <label for="ne">Ne</label>
+                    <br>
+                    
+                    <input type="radio" id="ne_znam" value="Ne znam">
+                    <label for="ne_znam">Ne znam</label>
+                    <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="poslednja_firma">Poslednja firma za koju ste radili</label><br>
+                    <input type="text" id="poslednja_firma">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="komentari">Komentari</label><br>
+                    <textarea id="komentari"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="submit" id="submit" value="Posalji">
+                </td>
+            </tr>
+        </table>
+
+        </div>
+    
+        <div id="footer">
+            <footer>Veselin Jokanović, Decembar 2022</footer>
+        </div>
+    </body>
+</html>
